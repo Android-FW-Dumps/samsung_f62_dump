@@ -1,0 +1,17 @@
+kernel=kernel
+ramdisk=ramdisk
+page_size=2048
+dtbo=dtbo.img
+dt=dtb.img
+kernel_size=42977296
+ramdisk_size=10735430
+dtb_offset=0x00000000
+dtb_size=239232
+base_addr=0x10000000
+kernel_offset=0x00008000
+ramdisk_offset=0x01000000
+tags_offset=0x00000100
+dtbo_offset=0xf333a800
+cmd_line='androidboot.selinux=permissive androidboot.selinux=permissive'
+board="SRPTK19A002RU"
+format=gzip
